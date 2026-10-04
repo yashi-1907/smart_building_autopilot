@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #27302C;
+    background-color: #F7F8F5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code, pre, .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom subtle scrollbar in warm neutral tones */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #F0F2ED;
+}
+::-webkit-scrollbar-thumb {
+  background: #D2D8CD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B6BFAF;
+}
+
+/* Subtle card shadow */
+.card-pastel {
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 1px solid rgba(39, 48, 44, 0.06);
+  box-shadow: 0 4px 20px -4px rgba(39, 48, 44, 0.03);
+}
+

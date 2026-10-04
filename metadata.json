@@ -1,0 +1,8 @@
+{
+  "name": "Remix Smart Building Autopilot",
+  "description": "Energy efficiency, occupant experience, and grid-responsive building management software-in-the-loop simulation for Indian commercial and institutional retrofits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
